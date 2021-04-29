@@ -10,6 +10,5 @@ jobs:
     - uses: ./action-a
       env:
         MY_NAME: "Rick Smith"
-        AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
-        AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
+
         
